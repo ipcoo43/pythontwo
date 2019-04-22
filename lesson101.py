@@ -14,3 +14,9 @@
  > docker run -it melearn:init
 
 - 홈폴더를 마운틴해서 사용하기
+ > docker run -it -v <폴더이름>:<컨테이너의폴더> <이미지이름>:<태그이름>
+ > docker run -it -v /volumn2/docker/aircomix:/park parka
+
+- synology 설정
+ > LANG  C.UTF-8  LC_ALL C.UTF-8
+ > /docker/aircomix
