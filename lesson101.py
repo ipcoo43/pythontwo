@@ -1,3 +1,4 @@
+print('''
 - 다운 로드 : docker pull continuumio/miniconda3
 - 실행 : docker run -it continuumio/miniconda3 /bin/bash
 - 파이썬 실행해보기 : python -c 'print(3*5)'
@@ -20,3 +21,5 @@
 - synology 설정
  > LANG  C.UTF-8  LC_ALL C.UTF-8
  > /docker/aircomix
+
+''')
